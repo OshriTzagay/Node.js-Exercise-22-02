@@ -126,8 +126,15 @@ let arr = [child1, child2, child3];
 // onEmitHandler('mission9',"Mission9 Completed.");
 
 //!Ex10-->)
-arrayMission10=["dsadsa",222,51,true]
-require('./mission10EventClass');
-onEmitHandler10('mission10',arrayMission10)
+// arrayMission10=["dsadsa",222,51,true]
+// require('./mission10EventClass');
+// onEmitHandler10('mission10',arrayMission10)
 
 //!Ex11-->)
+arrMission11 = ["NAME","NAME","NAME","NAME","Successfully"];
+let eventMission11 = require('./mission11EventClass');
+eventMission11.onEmitHandler11(arrMission11);
+
+
+//!Moving To Next File --> Ex's With HTTP missions.)
+
